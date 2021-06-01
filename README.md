@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/CrazedDoggo/FEM-TestimonialsGridSection](https://github.com/CrazedDoggo/FEM-TestimonialsGridSection)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://crazeddoggo.github.io/FEM-TestimonialsGridSection/](https://crazeddoggo.github.io/FEM-TestimonialsGridSection/)
 
 ## My process
 
