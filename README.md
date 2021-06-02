@@ -51,6 +51,8 @@ Users should be able to:
 
 ### Useful resources
 
+- [Git Branching](https://www.youtube.com/watch?v=QV0kVNvkMxc) - Helped clarify and reinforce knowledge from Git documentation for branching in this project.
+
 ## Author
 
 - GitHub - [CrazedDoggo](https://github.com/CrazedDoggo)
