@@ -44,14 +44,20 @@ Users should be able to:
 
 ### What I learned
 
-[TO BE ADDED - EXPERIMENTING WITH AUTO-FIT AND AUTO-FILL IN SEPARATE BRANCH]
+After experimenting with auto-fit and auto-fill, I found that applying a max-width to the grid seemingly broke it entirely. The grid items would not size down and would "lock" at the min-width instead of wrapping. The grid itself also locked at the max-width instead of scaling down.
+
+My resolution was to simply add a div around the grid to wrap it to add the max-width which resolved the wrapping issue.
+
+However, due to the nature of auto-fit and auto-fill, creating the grid layout given with different spans and heights depending on the width of the device would require media queries. I found that using the current method on the main branch is easier to write and maintain.
 
 ### Continued development
 
+Auto-fit and auto-fill are great technologies of grid, however they should be limited to more "uniform" boxes or situations where we are unaware of how many elements we will have. As this layout is pre-defined for different screen-lengths, it did not require it.
 
 ### Useful resources
 
 - [Git Branching](https://www.youtube.com/watch?v=QV0kVNvkMxc) - Helped clarify and reinforce knowledge from Git documentation for branching in this project.
+- [Grid Wrappers and Maxwidth](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Grid_wrapper) - Helped clarify and showed a different way to go about max-widths of grids with accessibility.
 
 ## Author
 
